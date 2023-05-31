@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links & Images</title>
+</head>
+
+<body>
+    <h1>Links & Images Homepage</h1>
+
+    <h2>Links</h2>
+    <p>Links can be formatted with the '&lt;a&gt;' and '&lt;/a&gt;' tags.</p>
+    <!-- These are all Absolute Links since they reference a non-local site -->
+    <p><a href="https://www.google.com">Google</a></p>
+    <p><a href="https://www.google.com" target="_blank">Google (new tab)</a></p>
+    <p><a href="https://open.spotify.com/track/3TO7bbrUKrOSPGRTB5MeCz?si=3819fcf78b7e4256" target="_blank">Time (Pink Floyd)</a></p>
+
+    <!-- These are all Relative Links since they reference a local site (a.k.a. a local html file) -->
+    <!-- Also about.html is in pages for a better file system, and we use the . to signify to start looking in the current dir -->
+    <!-- index.html should always be in the root directory -->
+    <p><a href="./pages/about.html">About</a></p>
+    <!-- This is a Relative Link that opens in a new tab -->
+    <p><a href="./pages/about.html" target="_blank">About (new tab)</a></p>
+
+    <h2>Images</h2>
+    <p>Images can be formatted with the '&lt;img&gt;' tag.</p>
+    <!-- This is an Absolute Link since it references a non-local site -->
+    <img src="https://upload.wikimedia.org/wikipedia/en/c/c3/Tyler%2C_the_Creator_-_Flower_Boy.png" alt="Flower Boy Album Cover">
+    <!-- This is a Relative Link since it references a local site (a.k.a. a local image file) -->
+    <img src="images/dog.jpg" width="600" height="800" alt="The Bestest Boy Wiley!!!">
+</body>
+</html>
